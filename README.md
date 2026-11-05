@@ -103,3 +103,8 @@ pump.start()   // 记得在退出时 pump.stop()
 ## 许可
 
 MIT，见 [LICENSE](LICENSE)。
+
+---
+
+这套一共四个零件，索引在 [dsh-plugins](https://github.com/not-zai/dsh-plugins)：
+**递话**（senses-bridge）· **记事**（memory-pipeline）· **自己开口**（self-nudge）· **先知道天气**（weather-watch）。
