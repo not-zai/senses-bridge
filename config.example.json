@@ -1,0 +1,15 @@
+{
+  "_说明": "把这份复制成 config.json。客户端和服务端都读它；也可以直接用代码传参，不读文件。",
+
+  "baseDir": "./state/bus",
+  "_baseDir": "inbox / outbox 建在这个目录下。默认跟着仓库走，不写用户目录。",
+
+  "timeoutMs": 180000,
+  "_timeoutMs": "客户端等回执的上限。超时会返回 { ok:false, reason:'timeout' }。",
+
+  "pollMs": 150,
+  "_pollMs": "客户端轮询 outbox 的间隔（毫秒）。本地盘 100~200 都行。",
+
+  "pumpPollMs": 400,
+  "_pumpPollMs": "服务端轮询 inbox 的间隔（毫秒）。"
+}
